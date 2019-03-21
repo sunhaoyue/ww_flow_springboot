@@ -1,0 +1,37 @@
+2019-02-25 15:03:21.793  INFO 86190 --- [restartedMain] com.wantwant.Appllcation                 : Starting Appllcation on shq91709014 with PID 86190 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/ww_flow_springboot)
+2019-02-25 15:03:21.821  INFO 86190 --- [restartedMain] com.wantwant.Appllcation                 : No active profile set, falling back to default profiles: default
+2019-02-25 15:03:22.153  INFO 86190 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-25 15:03:22.154  INFO 86190 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-25 15:03:24.729  WARN 86190 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.wantwant]' package. Please check your configuration.
+2019-02-25 15:03:24.961  INFO 86190 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-25 15:03:24.961  INFO 86190 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-25 15:03:25.104  INFO 86190 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120ms. Found 1 repository interfaces.
+2019-02-25 15:03:25.148  INFO 86190 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-25 15:03:25.153  INFO 86190 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-25 15:03:25.221  INFO 86190 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.wantwant.dao.UserRepository.
+2019-02-25 15:03:25.222  INFO 86190 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-02-25 15:03:26.034  INFO 86190 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$214c924b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-25 15:03:26.167  INFO 86190 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ae0d41d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-25 15:03:27.324  INFO 86190 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2019-02-25 15:03:27.375  INFO 86190 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-25 15:03:27.375  INFO 86190 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-25 15:03:27.393  INFO 86190 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/91808008/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-25 15:03:28.133  INFO 86190 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-02-25 15:03:28.141  INFO 86190 --- [restartedMain] o.a.c.c.C.[.[.[/ww_flow_springboot]      : Initializing Spring embedded WebApplicationContext
+2019-02-25 15:03:28.141  INFO 86190 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5987 ms
+2019-02-25 15:03:28.689  INFO 86190 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-02-25 15:03:29.865  INFO 86190 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-02-25 15:03:33.469  INFO 86190 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-25 15:03:33.551  INFO 86190 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-02-25 15:03:34.711  INFO 86190 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-25 15:03:34.832  WARN 86190 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-25 15:03:35.221  INFO 86190 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-02-25 15:03:37.158  INFO 86190 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path '/ww_flow_springboot'
+2019-02-25 15:03:37.163  INFO 86190 --- [restartedMain] com.wantwant.Appllcation                 : Started Appllcation in 16.819 seconds (JVM running for 20.061)
+2019-02-25 15:04:58.631  INFO 86190 --- [http-nio-8088-exec-1] o.a.c.c.C.[.[.[/ww_flow_springboot]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-25 15:04:58.632  INFO 86190 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-02-25 15:04:58.655  INFO 86190 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2019-02-25 16:27:56.803  INFO 86190 --- [Thread-43] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-25 16:27:56.842  INFO 86190 --- [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-25 16:27:56.992  INFO 86190 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-02-25 16:27:57.015  INFO 86190 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

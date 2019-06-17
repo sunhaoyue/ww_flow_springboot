@@ -144,7 +144,7 @@ window.document.onkeydown = function(e){
 	<tr>
 		<td class="bg_foot" align="center">
 			<div class="login_3">
-				神旺控股版权所有	2019&copy;
+				孙浩月神旺控股版权所有	2019&copy;
 			</div>
 		</td>
 	</tr>

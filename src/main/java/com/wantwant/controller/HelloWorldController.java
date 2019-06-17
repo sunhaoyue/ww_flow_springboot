@@ -1,7 +1,6 @@
 package com.wantwant.controller;
 
 
-import com.wantwant.pojo.User;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,9 +12,4 @@ public class HelloWorldController {
         return "hello world";
     }
 
-    @RequestMapping("/getuser")
-    public User getUser(){
-        User user = new User();
-        return user;
-    }
 }

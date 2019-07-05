@@ -13,5 +13,5 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Appllcation {
     public static void main(String[] args) {
         SpringApplication.run(Appllcation.class,args);
-    }
+}
 }

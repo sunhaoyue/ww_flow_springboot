@@ -20,8 +20,8 @@ public class DruidConfig {
         ServletRegistrationBean servletRegistrationBean=new ServletRegistrationBean(new StatViewServlet(),"/druid/*");
         servletRegistrationBean.addInitParameter("allow","10.0.128.84");
         //登录查看信息的账号密码
-        servletRegistrationBean.addInitParameter("loginUsername","administrator");
-        servletRegistrationBean.addInitParameter("loginPassword","#zxITadmin*#");
+        servletRegistrationBean.addInitParameter("loginUsername","swxt");
+        servletRegistrationBean.addInitParameter("loginPassword","swxt");
         //是否能够重置数据
         servletRegistrationBean.addInitParameter("resetEnable","false");
         return servletRegistrationBean;
